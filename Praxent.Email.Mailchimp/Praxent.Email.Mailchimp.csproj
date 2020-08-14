@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>Praxent.Email.Mailchimp</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>John Brunnings</Authors>
     <Company>Praxent, LLC</Company>
     <RepositoryUrl>https://github.com/praxent/dotnetcore-praxent-email-mailchimp</RepositoryUrl>
@@ -13,9 +13,10 @@
     <PackageReference Include="Autofac" Version="5.2.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Mandrill.net" Version="7.3.2" />
-    <PackageReference Include="Praxent.API.Client" Version="1.0.1" />
-    <PackageReference Include="Praxent.API.Client.Mailchimp" Version="1.0.1" />
-    <PackageReference Include="Praxent.Email" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.6" />
+    <PackageReference Include="Praxent.API.Client" Version="1.0.2" />
+    <PackageReference Include="Praxent.API.Client.Mailchimp" Version="1.0.2" />
+    <PackageReference Include="Praxent.Email" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
